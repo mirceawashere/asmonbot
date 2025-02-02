@@ -34,3 +34,4 @@ def post_to_X():
     url = 'https://api.twitter.com/2/tweets'
     tweet = {"text": message}
     requests.post(url, auth=auth, json=tweet)
+    return message
