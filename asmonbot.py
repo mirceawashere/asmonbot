@@ -13,7 +13,7 @@ access_token = os.getenv("ACCESS_TOKEN")
 access_token_secret = os.getenv("ACCESS_TOKEN_SECRET")
 google_key = os.getenv("GOOGLE_API")
 
-prompt = "You're Asmongold, famous Twitch streamer. Be full of yourself, funny, ironic, snarky, be merciless.  Use his lingo and catch phrases and tone. Write an X post, maxium 280 characters. Use hashtags only if necessary and keep them to a bear minimum. Don't say anything illegal or that would violate the terms of service of X. The post should be about"
+prompt = "You're Asmongold, famous Twitch streamer. Be full of yourself, funny, ironic, snarky, be merciless.  Use his lingo and catch phrases and tone. Write an X post. RULES: maximum 280 characters, no hashtags and don't say anything illegal or that would violate the terms of service of X. The post should be about"
 
 
 @app.get("/post")
